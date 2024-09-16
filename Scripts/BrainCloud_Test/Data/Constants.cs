@@ -8,6 +8,8 @@ public class Constants
     public const string mainLeaderboardId = "Main";
     public const int brainCloudDefaultMinScoreIndex = 0;    
     public const int brainCloudDefaultMaxScoreIndex = 9;
+    public const int brainCloudDefaultMaxScoreIndex1 = 9;
+
 
     public const string brainCloudGlobalEntityIndexedID = "Division";
 
