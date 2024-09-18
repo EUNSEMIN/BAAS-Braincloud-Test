@@ -7,6 +7,8 @@ public class Statistic
 {
     private string name;
     private long value;
+    private long value2;
+
     private float increment;
 
     public Statistic(string name, long value)
