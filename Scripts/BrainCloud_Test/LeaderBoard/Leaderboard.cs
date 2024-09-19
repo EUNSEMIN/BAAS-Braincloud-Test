@@ -5,13 +5,14 @@ using UnityEngine;
 
 public class Leaderboard
 {
-    //¸®´õº¸µå ÀÌ¸§
+    //ë¦¬ë”ë³´ë“œ ì´ë¦„
     private string name;
+    private string name2;
 
-    //¸®´õº¸µå
+    //ë¦¬ë”ë³´ë“œ
     private List<LeaderboardEntry> leaderboard;
 
-    //Get ¸®´õº¸µå ÀÌ¸§
+    //Get ë¦¬ë”ë³´ë“œ ì´ë¦„
     public string Name
     {
         get { return name; }
@@ -23,7 +24,7 @@ public class Leaderboard
         leaderboard = _leaderboard;
     }
 
-    //Index·Î leaderboard entry °¡Á®¿À±â
+    //Indexë¡œ leaderboard entry ê°€ì ¸ì˜¤ê¸°
     public LeaderboardEntry GetLeaderboardEntryAtIndex(int index)
     {
         if (index >= 0 && index < GetCount())
@@ -31,7 +32,7 @@ public class Leaderboard
         return null;
     }
 
-    //enrtry Ä«¿îÆ®?
+    //enrtry ì¹´ìš´íŠ¸?
     public int GetCount()
     {
         return leaderboard.Count;
